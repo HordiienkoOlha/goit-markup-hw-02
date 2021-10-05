@@ -1,0 +1,17 @@
+/* цвет основного текста  #757575  */
+/* вторичный цвет текста #212121 */
+/* голубой #2196F3 */
+/* черный #000000 */
+/* белый #FFFFFF */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #FFFFFF;
+    --section-bg-colr: #2F303A;
+}
+/* мейл и телефон в футер rgba(255, 255, 255, 0.6) */
+body {
+    background-color: #E5E5E5;
+    color: #757575;
+}
