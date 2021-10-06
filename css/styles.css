@@ -13,6 +13,7 @@
     --section-bg-colr: #2F303A;
     --primary-black-color: #000000;
     --hero-bg-color: #2F303A;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6)
 }
 /* мейл и телефон в футер rgba(255, 255, 255, 0.6) */
 body {
@@ -95,4 +96,27 @@ letter-spacing: 0.06em;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
+}
+/* footer*/
+footer {
+    background-color: var(--hero-bg-color);
+}
+.webstudio-footer {
+    color: var(--primary-white-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.address {
+    color: var(--primary-white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.contacts {
+    color: var(--footer-contacts-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
