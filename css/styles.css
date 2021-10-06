@@ -120,3 +120,16 @@ footer {
     font-size: 14px;
     line-height: 1.71;
 }
+/* second page*/
+.title-page-two {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.description-page-two {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.88;
+}
