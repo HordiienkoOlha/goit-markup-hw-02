@@ -79,21 +79,22 @@ body {
   color: var(--primary-text-color);
 }
 
-.header-contacts:hover,
-.header-contacts:focus {
+.link-nav-dark:hover,
+.link-nav-dark:focus {
+  color: var(--accent-color);
+}
+
+.header-mail:hover,
+.header-mail:focus,
+.header-phone:focus,
+.header-phone:hover {
   color: var(--accent-color);
 }
 
 /* ----------------main----------------*/
 
-h1,
-h2,
-h3 {
-  font-family: Roboto, sans-serif;
-}
 .hero-title {
   color: var(--primary-white-color);
-  background-color: var(--hero-bg-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -175,6 +176,11 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   color: var(--footer-contacts-color);
+}
+
+.contacts-item:hover,
+.contacts-item:focus {
+  color: var(--accent-color);
 }
 
 /* ----------------second page----------------*/
