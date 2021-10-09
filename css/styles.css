@@ -162,19 +162,16 @@ footer {
 
 .contacts-list {
   font-family: inherit;
-}
-
-.address {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+}
+
+.contacts-address {
   color: var(--primary-white-color);
 }
 
 .contacts-item {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
   color: var(--footer-contacts-color);
 }
 
